@@ -7,8 +7,9 @@ function App() {
 
   return (
     <>
-    <div className="App">
-      <h1 className="text-red-800">Vite React with TailWind CSS</h1>
+    <div className="flex flex-col justify-center items-center h-screen">
+      <h1 className="text-9xl text-center font-bold text-teal-500">Hello World!</h1>
+      <h2 className='text-7xl text-teal-900'>Yehey Tailwind Framework</h2>
     </div>
         
     </>
