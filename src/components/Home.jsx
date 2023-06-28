@@ -13,7 +13,7 @@ const Home = () => {
         <h3 className="typed text-3xl pt-4">
           Web Developer and UI/UX Designer
         </h3>
-        <p className="text-lg py-5 leading-8 text-gray-900 lg:px-96">
+        <p className="text-lg py-5 leading-8 text-gray-900 2xl:px-96">
           A front-end developer who is a Bataan Peninsula State University
           graduate and is currently an intern at Kloudtech. I continued to
           acquire various web designs and layouts and the necessary programming
