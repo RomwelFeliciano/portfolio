@@ -46,7 +46,7 @@ const Expertise = () => {
           />
           <div className="flex flex-col justify-start px-5 my-5">
             <h5 className="text-xl font-bold text-neutral-800 dark:text-neutral-50">
-              JavaScript -<span className="text-teal-500">Intermediate</span>
+              JavaScript - <span className="text-teal-500">Intermediate</span>
             </h5>
             <ul className="list-disc list-inside text-white">
               <h4 className="font-medium">3 years of experience</h4>
