@@ -12,7 +12,8 @@ const Navigation = () => {
         </li>
         <li>
           <a
-            href="#"
+            href="/src/assets/resume.pdf"
+            target="_blank"
             className="bg-gradient-to-t from-[#C8C6C6] to-[#4B6587] py-2 px-4 rounded-md ml-8 font-medium"
           >
             Resume
