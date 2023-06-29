@@ -1,9 +1,9 @@
 import { AiFillFacebook, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const self = {
     name: "Romwel Reyes Feliciano",
-    role: "Web Developer and UI/UX Designer",
     description:
       "A front-end developer who is a Bataan Peninsula State University graduate and is currently an intern at Kloudtech. I continued to acquire various web designs and layouts and the necessary programming skills every day at that time. I also concentrate on honing my proficiency with popular frameworks and libraries.",
   };
@@ -17,7 +17,22 @@ const Home = () => {
         <h2 className="text-5xl py-2 font-extrabold text-[#4B6587] lg:pt-5">
           {self.name}
         </h2>
-        <h3 className="typed font-semibold text-3xl pt-4">{self.role}</h3>
+        <h3 className="typed flex justify-center gap-2 font-semibold text-4xl pt-4">
+          I'm a
+          <TypeAnimation
+            sequence={[
+              "Web Developer",
+              2000,
+              "UI/UX Designer",
+              2000,
+              "Gamer",
+              2000,
+            ]}
+            wrapper="div"
+            cursor={false}
+            repeat={Infinity}
+          />
+        </h3>
         <p className="text-lg py-5 leading-8 text-gray-900 2xl:px-96">
           {self.description}
         </p>
