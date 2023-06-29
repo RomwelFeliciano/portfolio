@@ -3,14 +3,14 @@ import { AiFillFacebook, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const Home = () => {
   return (
     <section className="min-h-screen">
-      <div className="text-center p-10 font-mono">
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-10 overflow-hidden">
+      <div className="text-center p-10">
+        <div className="relative mx-auto bg-gradient-to-b from-[#C8C6C6] rounded-full w-80 h-80 mb-10 overflow-hidden">
           <img className="relative object-cover" src="/profile.png" alt="" />
         </div>
-        <h2 className="text-5xl py-2 font-bold text-teal-800 lg:pt-5">
+        <h2 className="text-5xl py-2 font-extrabold text-[#4B6587] lg:pt-5">
           Romwel Reyes Feliciano
         </h2>
-        <h3 className="typed text-3xl pt-4">
+        <h3 className="typed font-semibold text-3xl pt-4">
           Web Developer and UI/UX Designer
         </h3>
         <p className="text-lg py-5 leading-8 text-gray-900 2xl:px-96">

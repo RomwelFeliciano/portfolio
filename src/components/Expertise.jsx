@@ -1,6 +1,6 @@
 const Expertise = () => {
   return (
-    <section className="min-h-screen font-mono">
+    <section className="min-h-screen">
       <div>
         <h3 className="text-4xl pt-20 font-bold mb-5">My Expertise</h3>
       </div>

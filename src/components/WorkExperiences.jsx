@@ -2,7 +2,7 @@ import React from "react";
 
 const WorkExperiences = () => {
   return (
-    <section className="min-h-screen font-mono">
+    <section className="min-h-screen">
       <h3 className="text-3xl mt-20 font-bold">Work Experiences</h3>
       <div className="grid lg:grid-cols-2 gap-10 mt-5">
         <div className="flex w-full">

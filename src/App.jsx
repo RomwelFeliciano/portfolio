@@ -11,7 +11,7 @@ function App() {
     <>
       {/* Navbar Section */}
       <Navigation />
-      <main className="bg-sky-200 px-9 lg:px-40">
+      <main className="bg-[#F7F6F2] px-9 lg:px-40 font-league">
         {/* Home Section */}
         <Home />
         {/* Skills Section */}
