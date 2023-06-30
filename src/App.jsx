@@ -9,6 +9,7 @@ import WorkExperiences from "./components/WorkExperiences";
 function App() {
   return (
     <>
+      {/* Additional Comment */}
       {/* Navbar Section */}
       <Navigation />
       <main className="bg-[#F7F6F2] px-9 lg:px-40 font-league">
